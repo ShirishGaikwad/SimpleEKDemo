@@ -13,6 +13,7 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		3FA171C22C5566A300DB1509 /* SimpleEkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA171C12C5566A300DB1509 /* SimpleEkVC.swift */; };
+		3FEBE0262C678BC3009C7917 /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBE0252C678BC3009C7917 /* View Controller.swift */; };
 		7E19D41311D189F4000002E9 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7E19D41211D189F4000002E9 /* iTunesArtwork */; };
 		7E4A142A11ADA0AA004BA0B1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4A142911ADA0AA004BA0B1 /* EventKit.framework */; };
 		7E4A142C11ADA0B1004BA0B1 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4A142B11ADA0B1004BA0B1 /* EventKitUI.framework */; };
@@ -41,6 +42,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FA171C02C5566A300DB1509 /* SimpleEKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleEKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FA171C12C5566A300DB1509 /* SimpleEkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEkVC.swift; sourceTree = "<group>"; };
+		3FEBE0252C678BC3009C7917 /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
 		7E19D41211D189F4000002E9 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Images/iTunesArtwork; sourceTree = "<group>"; };
 		7E4A142911ADA0AA004BA0B1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		7E4A142B11ADA0B1004BA0B1 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 			children = (
 				EBC74CAB17822B1F001CA859 /* Storyboard.storyboard */,
 				3FA171C12C5566A300DB1509 /* SimpleEkVC.swift */,
+				3FEBE0252C678BC3009C7917 /* View Controller.swift */,
 				7E8EEABD1195F60F0073914C /* Images */,
 				8D1107310486CEB800E47090 /* SimpleEKDemo-Info.plist */,
 				3FA171C02C5566A300DB1509 /* SimpleEKDemo-Bridging-Header.h */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				3FEBE0262C678BC3009C7917 /* View Controller.swift in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				3FA171C22C5566A300DB1509 /* SimpleEkVC.swift in Sources */,
 				7E8EE7E41194B0D70073914C /* SimpleEKDemoAppDelegate.m in Sources */,
